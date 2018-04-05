@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Spreading Smiles!!!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your one meal can save a life!!!"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:textSize="21dp"/>
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Following is the paytm number of Restaurant and the volunteer details.
+        paytm no:-9876894321
+        volunteer name:-Deepak Kumar
+        Contact no:-8800675432"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please contact our Volunteer on the given contact as to picking and dropping of meal from your home to the area specified."
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations! You have earned one star On the completion of 25 stars,Our associated NGOs will be rewarding you.
+Thankyou for associating with spreading smiles.We together can bring a change in the lives of teh needy.Good Luck!!!"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="175dp"
+        android:src="@drawable/spreadsmiles"/>
+
+
+
+
+</LinearLayout>

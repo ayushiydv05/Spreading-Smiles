@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anandsingh.net.spreadingsmiles.thankyou1">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:text="Welcome to Spreading smiles!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="+1"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:text="Your one meal can save a life."
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="26dp"
+        android:text="Following are the volunteer details:"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_marginTop="37dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/spreadsmiles"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_toEndOf="@+id/textView4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/star"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="11dp"
+        android:text="Prashant Mehra(8899786765)"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="18dp"
+        android:text="Please contact our volunteer on the given contact as to picking and dropping of meal from your home to the area specified. "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:text="Congrtulations! You have earned one star. On the completion of 25 stars, Our associated NGOs will be rewarding you. Thank you for associating with spreading smiles. We together can bring a change in the lives of the needy. Good Luck!"
+        android:id="@+id/textView6" />
+
+</RelativeLayout>
