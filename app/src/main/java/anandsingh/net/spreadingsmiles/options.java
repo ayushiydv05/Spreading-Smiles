@@ -5,48 +5,53 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
+import static anandsingh.net.spreadingsmiles.R.id.imageView2;
 
 public class options extends AppCompatActivity {
-    private Button b1,b2,b3,b4;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
+        ImageView imageView1 = (ImageView) findViewById(R.id.imageView1);
+        ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
+        ImageView imageView3 = (ImageView) findViewById(R.id.imageView3);
+        ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
 
-        b1=(Button) findViewById(R.id.needy);
-        b1.setOnClickListener(new View.OnClickListener(){
-                                 @Override
-                                 public void onClick(View v) {
-                                     open1();
-                                 }
-                             }
-        );
-        b2=(Button) findViewById(R.id.vol);
-        b2.setOnClickListener(new View.OnClickListener(){
-                                  @Override
-                                  public void onClick(View v) {
-                                      open2();
-                                  }
-                              }
-        );
-        b3=(Button) findViewById(R.id.don);
-        b3.setOnClickListener(new View.OnClickListener(){
-                                  @Override
-                                  public void onClick(View v) {
-                                      open3();
-                                  }
-                              }
-        );
-        b4=(Button) findViewById(R.id.ngo);
-        b4.setOnClickListener(new View.OnClickListener(){
-                                  @Override
-                                  public void onClick(View v) {
-                                      open4();
-                                  }
-                              }
-        );
+        imageView1.setOnClickListener(new View.OnClickListener() {  //sharer
+            @Override
+            public void onClick(View view) {
+                open3();
+            }
+        });
+
+        imageView2.setOnClickListener(new View.OnClickListener() {   //discover needy
+            @Override
+            public void onClick(View view) {
+                open1();
+            }
+        });
+
+        imageView3.setOnClickListener(new View.OnClickListener() {    //volunteer
+            @Override
+            public void onClick(View view) {
+                open2();
+            }
+        });
+
+        imageView4.setOnClickListener(new View.OnClickListener() {   //ngo
+            @Override
+            public void onClick(View view) {
+                open4();
+            }
+        });
+
     }
+
+
     public void open1(){
         Intent intent=new Intent(this, updateinfo.class);
         startActivity(intent);

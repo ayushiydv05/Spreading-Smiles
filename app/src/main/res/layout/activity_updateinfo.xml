@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="anandsingh.net.spreadingsmiles.updateinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:text="Have you seen needy people lying all around in need of food? Join us and help us discover them. Our team will provide fod to them and help you in spreading smiles all around."/>
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="300sp"
-        android:layout_alignParentStart="true"
+
         android:layout_below="@+id/editText2"
-        android:layout_marginTop="155dp"
+
         android:scaleType="centerCrop"
         android:src="@drawable/app5"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="23dp"
-        android:ems="10"
-        android:hint="Enter area"
-        android:inputType="textShortMessage|textPersonName"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="46dp" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/editText"
-        android:layout_marginTop="34dp"
-        android:ems="10"
-        android:hint="Enter average no. of people"
-        android:inputType="textPersonName"
-        android:textStyle="bold" />
+            android:hint="Enter area"
+            android:inputType="textShortMessage|textPersonName"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter average no. of people"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
 
     <Button
         android:id="@+id/button"
@@ -52,5 +56,5 @@
         android:layout_marginStart="131dp"
         android:layout_marginTop="45dp"
         android:text="submit" />
-
-</RelativeLayout>
+</LinearLayout>
+</ScrollView>

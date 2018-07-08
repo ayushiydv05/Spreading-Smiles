@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        openlogin();
+                        openabout();
                     }
                 }
         );
     }
-    public void openlogin(){
-        Intent intent=new Intent(this, login.class);
+    public void openabout(){
+        Intent intent=new Intent(this, about.class);
         startActivity(intent);
     }
 

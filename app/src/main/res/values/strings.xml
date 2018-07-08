@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Spreading Smiles</string>
     <string name="action_settings">Settings</string>
+    <string name="about_spreading_smiles" />
+    <string name="be_a_sharer" />
+    <string name="do_you_have_extra_food_leftover_at_your_home" />
 </resources>

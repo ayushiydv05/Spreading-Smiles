@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anandsingh.net.spreadingsmiles.about">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="About Spreading Smiles.."
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:textSize="20sp"
+    android:textColor="@android:color/black"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+
+    android:text="Spreading smiles is an initiative to help the needy, get their required meals on time, help them survive and spread smiles all across the globe. It does so by helping people share the extra meal leftover in their houses. It not only feeds the hungry stomachs, but also reduces the wastage of food.  "
+    android:layout_marginTop="1dp"/>
+            <ImageView
+
+                android:layout_width="380dp"
+                android:layout_height="300dp"
+                android:src="@drawable/smiless"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="We have the following four domains:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+
+                android:text="1.) Be a Meal sharer."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="2.) Be a Volunteer and help deliver food."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="3.) If you are a NGO, associate with us and provide gifts to the helpers."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="4.) If none of the above, just contibute by providing us the information of people in need."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Join us in the journey and get ready for joy spilling all along."/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Continue" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

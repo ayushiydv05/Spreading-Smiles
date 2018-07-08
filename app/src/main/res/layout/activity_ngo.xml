@@ -6,31 +6,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.kanishka.spreadingsmiles.Main2Activity">
+    tools:context="anandsingh.net.spreadingsmiles.rest">
+
 
 
     <EditText
         android:id="@+id/simpleEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Organization Nane"
-        android:textColor="@android:color/black"
+        android:hint="Organization Nane"
+
         android:textStyle="italic" />
 
     <EditText
         android:id="@+id/simpleEitText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Address"
-        android:textColor="@android:color/black"
+        android:hint="Address"
         android:textStyle="italic" />
 
     <EditText
         android:id="@+id/simpleEditTex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E-mail"
-        android:textColor="@android:color/black"
+        android:hint="E-mail"
         android:textStyle="italic" />
 
     <Button
@@ -45,8 +44,7 @@
         android:id="@+id/simpleEditTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact Number"
-        android:textColor="@android:color/black"
+        android:hint="Contact Number"
         android:textStyle="italic" />
 
     <Button
